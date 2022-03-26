@@ -85,7 +85,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: anokhadocker/myjenkins:latest
+          image: anokhadocker/aspire-jenkins:1
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
